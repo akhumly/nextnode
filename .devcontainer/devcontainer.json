@@ -4,7 +4,18 @@
 	"name": "Node.js & PostgreSQL",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"dsznajder.es7-react-js-snippets",
+				"esbenp.prettier-vscode",
+				"ms-azuretools.vscode-docker",
+				"ms-vscode.live-server"
+			]
+		}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
