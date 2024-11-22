@@ -11,8 +11,11 @@ export function Hero() {
           Unleash your creativity with our open-source MIDI chord progression generator.
           Build your own or get a pre-assembled kit!
         </p>
-        <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-3 px-8 rounded-full text-lg">
-          Learn More
+        <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
+          Coming Soon! Sign up for Updates.
+        </h2>
+        <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600">
+          Sign up
         </Button>
       </div>
     </section>
