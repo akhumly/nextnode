@@ -1,6 +1,11 @@
+'use client';
+import React from 'react'
 import { Button } from '@/components/ui/button'
 
 export function Hero() {
+  const handleContactClick = () => {
+    window.location.href = '#contact';
+  };
   return (
     <section className="py-20 px-4">
       <div className="container mx-auto text-center">
@@ -14,7 +19,12 @@ export function Hero() {
         <h2 className="text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
           Coming Soon! Sign up for Updates.
         </h2>
-        <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600">
+        <Button
+          variant="default"
+          size="default"
+          onClick={handleContactClick}
+          className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600"
+        >
           Sign up
         </Button>
       </div>

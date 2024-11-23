@@ -28,7 +28,7 @@ export default function Contact() {
   };
 
   return (
-    <section>
+    <section id="contact" className="py-20 px-4">
       <h2 className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
         Sign up for Updates!
       </h2>
